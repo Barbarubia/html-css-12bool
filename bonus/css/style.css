@@ -7,8 +7,8 @@ html {
 
 .container {
     margin: 50px auto;
-    background-color: rgba(255,255,255,.3);
-    border-radius: 1rem;
+    /* background-color: rgba(255,255,255,.3);
+    border-radius: 1rem; */
 }
 
 /* Proprietà per tutte le colonne */
@@ -20,6 +20,84 @@ html {
     text-align: center;
 }
 
-.container > .row > [class*="col-"] {
+.container > header > .row > [class*="col-"],
+.container > main > .row > [class*="col-"] {
     border: 1px solid white;
+    background-color: rgba(0,0,0,.3);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* HEADER */
+.align-bottom {
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.logo {
+    width: 6rem;
+}
+
+.calendar-name h1 {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+
+.calendar {
+    margin: 0 -5px;
+}
+
+/* Month Container */
+
+/* SOVRASCRIVO REGOLE DEL FRAMEWORK PER QUESTA CLASSE PER POTER APPLICARE UN MARGINE TRA GLI ELEMENTI */
+
+.month-container-xs {
+    margin: 0 5px;
+    flex-basis:
+    calc(((100% / 12) * 6) - 10px);
+    max-width: calc(((100% / 12) * 6) - 10px);
+}
+
+@media all and (min-width: 576px) {
+    .month-container-sm {
+        margin: 0 5px;
+        flex-basis:
+        calc(((100% / 12) * 4) - 10px);
+        max-width: calc(((100% / 12) * 4) - 10px);
+    }
+}
+
+@media all and (min-width: 768px) {
+    .month-container-md {
+        margin: 0 5px;
+        flex-basis:
+        calc(((100% / 12) * 3) - 10px);
+        max-width: calc(((100% / 12) * 3) - 10px);
+    }
+}
+
+@media all and (min-width: 992px) {
+    .month-container-lg {
+        margin: 0 5px;
+        flex-basis:
+        calc(((100% / 12) * 2) - 10px);
+        max-width: calc(((100% / 12) * 2) - 10px);
+    }
+}
+
+.month-container:nth-child(odd) {
+    
+}
+
+.month-container:nth-child(even) {
+    
+}
+
+/* Month */
+
+.month {
+    padding: 5px;
+    text-transform: uppercase;
+    
 }
