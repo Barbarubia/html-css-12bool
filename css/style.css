@@ -1,19 +1,20 @@
 .container {
-    background-color: khaki;
     margin-bottom: 20px;
 }
 
+/* Proprietà per tutte le colonne */
 [class*="col-"] {
     padding: 5px;
     min-height: 50px;
+    background-color: #006cfa;
+    border: 1px solid white;
+    color: white;
     text-align: center;
     line-height: 50px;
     vertical-align: middle;
-    background-color: #006cfa;
-    color: white;
-    border: 1px solid white;
 }
 
+/* Proprietà per le colonne inserite nelle righe di secondo livello */
 .nested [class*="col-"] {
     background-color: #00e165;
     border: 1px solid #006cfa;
