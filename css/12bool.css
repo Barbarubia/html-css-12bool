@@ -5,3 +5,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+/* CONTENITORE */
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* RIGA: funziona da contenitore flex delle colonne in essa inserite */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Partiamo da devices Extra Small (mobile) e modificheremo i comportamenti per schermi più grandi tramite media queries */
+
+/* COLONNE */
+
+
+.col { /* colonna generica che prende tutto lo spazio di cui dispone senza seguire le regole del framework */
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+[class*="col-"] { /* impedisce alle colonne di ridimensionarsi secondo le regole di flex */
+    flex: 0 0 auto; 
+}
