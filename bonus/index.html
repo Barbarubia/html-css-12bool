@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario 12-Bool</title>
+
+    <!-- Link al CSS del nostro framework a 12 colonne: va posizionato prima del css dove imposteremo gli stili -->
+    <link rel="stylesheet" href="css/12bool.css">
+
+    <!-- Link al CSS con gli stili -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Calendario 2022</div>
+        </div>
+        <div class="row">
+            <!-- BLOCCO MESE -->
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="row month">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Gennaio</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">L</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">G</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">V</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">S</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">D</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">1</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">2</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">3</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">4</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">5</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">6</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">7</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">8</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">9</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">10</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">11</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">12</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">13</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">14</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">15</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">16</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">17</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">18</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">19</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">20</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">21</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">22</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">23</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">24</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">25</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">26</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">27</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">28</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">29</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">30</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">31</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+            </div>
+            <!-- BLOCCO MESE -->
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="row month">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Febbraio</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">L</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">G</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">V</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">S</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">D</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">1</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">2</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">3</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">4</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">5</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">6</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">7</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">8</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">9</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">10</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">11</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">12</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">13</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">14</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">15</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">16</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">17</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">18</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">19</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">20</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">21</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">22</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">23</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">24</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">25</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">26</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">27</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">28</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+            </div>
+            <!-- BLOCCO MESE -->
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="row month">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Marzo</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">L</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">G</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">V</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">S</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">D</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">1</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">2</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">3</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">4</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">5</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">6</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">7</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">8</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">9</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">10</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">11</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">12</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">13</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">14</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">15</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">16</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">17</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">18</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">19</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">20</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">21</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">22</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">23</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">24</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">25</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">26</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">27</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">28</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">29</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">30</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">31</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+            </div>
+            <!-- BLOCCO MESE -->
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="row month">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Aprile</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">L</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">G</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">V</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">S</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">D</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">1</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">2</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">3</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">4</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">5</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">6</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">7</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">8</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">9</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">10</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">11</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">12</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">13</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">14</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">15</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">16</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">17</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">18</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">19</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">20</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">21</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">22</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">23</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">24</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">25</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">26</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">27</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">28</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">29</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">30</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+            </div>
+            <!-- BLOCCO MESE -->
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="row month">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Maggio</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">L</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">G</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">V</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">S</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">D</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">1</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">2</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">3</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">4</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">5</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">6</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">7</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">8</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">9</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">10</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">11</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">12</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">13</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">14</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">15</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">16</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">17</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">18</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">19</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">20</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">21</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">22</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">23</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">24</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">25</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">26</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">27</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">28</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">29</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">30</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">31</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+            </div>
+            <!-- BLOCCO MESE -->
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="row month">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Giugno</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">L</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">G</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">V</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">S</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">D</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">1</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">2</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">3</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">4</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">5</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">6</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">7</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">8</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">9</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">10</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">11</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">12</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">13</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">14</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">15</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">16</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">17</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">18</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">19</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">20</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">21</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">22</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">23</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">24</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">25</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">26</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">27</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">28</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">29</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">30</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+            </div>
+            <!-- BLOCCO MESE -->
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="row month">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Luglio</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">L</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">G</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">V</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">S</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">D</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">1</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">2</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">3</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">4</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">5</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">6</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">7</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">8</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">9</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">10</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">11</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">12</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">13</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">14</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">15</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">16</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">17</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">18</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">19</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">20</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">21</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">22</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">23</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">24</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">25</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">26</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">27</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">28</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">29</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">30</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">31</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+            </div>
+            <!-- BLOCCO MESE -->
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="row month">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Agosto</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">L</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">G</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">V</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">S</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">D</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">1</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">2</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">3</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">4</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">5</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">6</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">7</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">8</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">9</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">10</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">11</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">12</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">13</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">14</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">15</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">16</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">17</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">18</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">19</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">20</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">21</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">22</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">23</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">24</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">25</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">26</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">27</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">28</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">29</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">30</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">31</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+            </div>
+            <!-- BLOCCO MESE -->
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="row month">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Settembre</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">L</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">G</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">V</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">S</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">D</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">1</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">2</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">3</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">4</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">5</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">6</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">7</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">8</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">9</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">10</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">11</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">12</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">13</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">14</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">15</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">16</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">17</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">18</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">19</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">20</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">21</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">22</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">23</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">24</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">25</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">26</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">27</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">28</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">29</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">30</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+            </div>
+            <!-- BLOCCO MESE -->
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="row month">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Ottobre</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">L</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">G</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">V</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">S</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">D</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">1</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">2</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">3</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">4</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">5</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">6</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">7</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">8</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">9</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">10</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">11</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">12</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">13</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">14</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">15</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">16</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">17</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">18</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">19</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">20</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">21</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">22</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">23</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">24</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">25</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">26</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">27</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">28</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">29</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">30</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">31</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+            </div>
+            <!-- BLOCCO MESE -->
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="row month">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Novembre</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">L</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">G</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">V</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">S</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">D</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">1</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">2</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">3</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">4</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">5</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">6</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">7</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">8</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">9</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">10</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">11</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">12</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">13</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">14</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">15</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">16</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">17</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">18</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">19</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">20</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">21</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">22</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">23</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">24</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">25</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">26</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">27</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">28</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">29</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">30</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+            </div>
+            <!-- BLOCCO MESE -->
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="row month">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Dicembre</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">L</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">M</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">G</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">V</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">S</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">D</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">1</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">2</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">3</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">4</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">5</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">6</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">7</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">8</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">9</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">10</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">11</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">12</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">13</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">14</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">15</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">16</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">17</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">18</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">19</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">20</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">21</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">22</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">23</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">24</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">25</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1">26</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">27</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">28</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">29</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">30</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">31</div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-4 col-xs-1 col-sm-offset-4 col-sm-1 col-md-offset-4 col-md-1 col-lg-offset-4 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    
+    
+
+</body>
+</html>
