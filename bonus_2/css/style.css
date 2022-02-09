@@ -1,0 +1,55 @@
+.container {
+    margin-bottom: 20px;
+}
+
+/* Proprietà per tutte le colonne */
+[class*="col-"] {
+    padding: 5px;
+    min-height: 50px;
+    background-color: #006cfa;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+/* Proprietà per le colonne inserite nelle righe di secondo livello */
+.nested [class*="col-"] {
+    background-color: #00e165;
+    border: 1px solid #006cfa;
+}
+
+/* Proprietà per l'esercizio bonus n.2 */
+
+/* Blocco n.2: allineamenti */
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-top {
+    align-items: flex-start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-bottom {
+    align-items: flex-end;
+}
+
+/* Blocco n.3: sottorighe con allineamenti */
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}

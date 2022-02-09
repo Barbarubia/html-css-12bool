@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12-Bool Bonus N.2</title>
+
+    <!-- Link al CSS del nostro framework a 12 colonne: va posizionato prima del css dove imposteremo gli stili -->
+    <link rel="stylesheet" href="css/12bool.css">
+
+    <!-- Link al CSS con gli stili -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <!-- BLOCCO N.1 -->
+    <!-- Riga con all'interno ulteriori righe -->
+    <div class="container">
+        <h1>Nested</h1>
+
+        <div class="row">
+            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                <!-- Sottoriga -->
+                <div class="row nested">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"></div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+                </div>
+            </div>
+            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                <!-- Sottoriga -->
+                <div class="row nested">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"></div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BLOCCO N.2 -->
+    <!-- Righe con posizionamento che varia agendo sulle proprietà flex -->
+    <div class="container">
+        <h1>Alignment</h1>
+
+        <!-- La prima riga è già flex-start, quindi non necessita di ulteriori classi -->
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">start</div>
+        </div>
+
+        <!-- Riga con posizionamento al centro -->
+        <div class="row justify-center">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">center</div>
+        </div>
+
+        <!-- Riga con posizionamento alla fine -->
+        <div class="row justify-end">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">end</div>
+        </div>
+
+        <!-- Riga con 2 colonne di altezza differente: la seconda colonna si posiziona allineata in alto rispetto alla prima colonna. Di default è stretch, quindi bisogna stabilire una classe -->
+        <div class="row align-top">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"><br><br></div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">top</div>
+        </div>
+
+        <!-- Riga con 2 colonne di altezza differente: la seconda colonna si posiziona allineata centralmente rispetto alla prima colonna -->
+        <div class="row align-center">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"><br><br></div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">center</div>
+        </div>
+
+        <!-- Riga con 2 colonne di altezza differente: la seconda colonna si posiziona allineata in basso rispetto alla prima colonna -->
+        <div class="row align-bottom">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"><br><br></div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">bottom</div>
+        </div>
+    </div>
+
+    <!-- BLOCCO N.3 -->
+    <!-- Righe con all'interno delle sottorighe con posizionamento variabile delle colonne agendo sulla proprietà justify-content di flex -->
+    <div class="container">
+        <h1>Justify Content</h1>
+        <h2>Space Around</h2>
+
+        <!-- Le colonne della sottoriga sono  distanziate tra di loro e dai bordi del container-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="row nested justify-space-around">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Space Between</h2>
+
+        <!-- Le colonne della sottoriga sono  distanziate tra di loro ma NON dai bordi del container-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="row nested justify-space-between">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
