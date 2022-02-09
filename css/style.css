@@ -1,11 +1,14 @@
 .container {
     background-color: khaki;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 [class*="col-"] {
-    padding: 15px 5px;
+    padding: 5px;
+    min-height: 50px;
     text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
     background-color: #006cfa;
     color: white;
     border: 1px solid white;
