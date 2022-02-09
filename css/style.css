@@ -1,16 +1,17 @@
 .container {
     background-color: khaki;
+    margin-bottom: 30px;
 }
 
 [class*="col-"] {
-    height: 50px;
-    border: 2px solid black;
+    padding: 15px 5px;
+    text-align: center;
+    background-color: #006cfa;
+    color: white;
+    border: 1px solid white;
 }
 
-[class*="col-"]:nth-child(odd) {
-    background-color: lightseagreen;
-}
-
-[class*="col-"]:nth-child(even) {
-    background-color: salmon;
+.nested [class*="col-"] {
+    background-color: #00e165;
+    border: 1px solid #006cfa;
 }
