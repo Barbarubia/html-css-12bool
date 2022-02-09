@@ -1,0 +1,16 @@
+.container {
+    background-color: khaki;
+}
+
+[class*="col-"] {
+    height: 50px;
+    border: 2px solid black;
+}
+
+[class*="col-"]:nth-child(odd) {
+    background-color: lightseagreen;
+}
+
+[class*="col-"]:nth-child(even) {
+    background-color: salmon;
+}
