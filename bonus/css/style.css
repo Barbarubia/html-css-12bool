@@ -22,7 +22,8 @@ html {
 }
 
 .container > header > .row > [class*="col-"],
-.container > main > .row > [class*="col-"] {
+.container > main > .row > [class*="col-"],
+.container > footer > .row > [class*="col-"] {
     border: 1px solid white;
     background-color: rgba(0,0,0,.8);
     border-radius: 1rem;
@@ -138,3 +139,15 @@ sostituito con padding applicato esclusivamente all'header
 }
 
 /*  TODO: colorare in rosso le domeniche e i giorni festivi */
+
+
+/* FOOTER */
+
+.container > footer {
+    padding: 0 5px; /* evito di usare margine negativo al contenitore dei blocchi dei mesi, che farebbe apparire una scrollbar orizzontale quando restringo */
+}
+
+footer .registered {
+    font-size: .5rem;
+    vertical-align: super;
+}
