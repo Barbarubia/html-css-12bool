@@ -1,14 +1,16 @@
-
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    background-color: darkslategrey;
+    color: white;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .container {
     margin: 50px auto;
-    /* background-color: rgba(255,255,255,.3);
-    border-radius: 1rem; */
 }
 
 /* Proprietà per tutte le colonne */
@@ -16,43 +18,58 @@ html {
     min-height: 2rem;
     line-height: 2rem;
     vertical-align: middle;
-    color: white;
     text-align: center;
 }
 
 .container > header > .row > [class*="col-"],
 .container > main > .row > [class*="col-"] {
     border: 1px solid white;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.8);
     border-radius: 1rem;
     margin-bottom: 2rem;
 }
 
 /* HEADER */
-.align-bottom {
-    align-items: flex-end;
-    justify-content: flex-start;
-}
-.logo {
-    width: 6rem;
+
+.container > header {
+    padding: 0 5px; /* evito di usare margine negativo al contenitore dei blocchi dei mesi, che farebbe apparire una scrollbar orizzontale quando restringo */
 }
 
-.calendar-name h1 {
+header [class*="col-"] {
     text-align: left;
-    text-transform: uppercase;
 }
+
+header h1 {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+header .logo-html-css {
+    height: 3rem;
+    line-height: 3rem;
+    vertical-align: text-bottom;
+}
+
+
 
 /* MAIN */
 
-.calendar {
+/* .calendar {
     margin: 0 -5px;
 }
+sostituito con padding applicato esclusivamente all'header
+*/
+
+
 
 /* Month Container */
 
 /* SOVRASCRIVO REGOLE DEL FRAMEWORK PER QUESTA CLASSE PER POTER APPLICARE UN MARGINE TRA GLI ELEMENTI */
 
 .month-container-xs {
+    background-color: rgba(255,255,255,.5);
     margin: 0 5px;
     flex-basis:
     calc(((100% / 12) * 6) - 10px);
@@ -86,18 +103,28 @@ html {
     }
 }
 
-.month-container:nth-child(odd) {
-    
-}
-
-.month-container:nth-child(even) {
-    
-}
-
 /* Month */
 
 .month {
     padding: 5px;
     text-transform: uppercase;
-    
+}
+
+.month h3 {
+    color: #2572b1;
+}
+.month h2 {
+    color: #e44d26;
+}
+
+/* Giorni della settimana */
+
+.weekly-days > * {
+    font-weight: 600;
+    background-color: rgba(255,255,255,.8);
+    color: #2572b1; 
+}
+
+.weekly-days > *:nth-of-type(7) {
+    color: #e44d26;
 }
