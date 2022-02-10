@@ -125,6 +125,14 @@ sostituito con padding applicato esclusivamente all'header
     color: #2572b1; 
 }
 
+
+.weekly-days > *:nth-of-type(1) {
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+}
+
 .weekly-days > *:nth-of-type(7) {
     color: #e44d26;
+    border-top-right-radius: .5em;
+    border-bottom-right-radius: .5em;
 }
